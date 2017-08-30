@@ -1,0 +1,17 @@
+{
+  "name": "question2",
+  "version": "1.0.0",
+  "description": "Assignment 1 question 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jatin Singhal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2",
+    "pug": "^2.0.0-rc.3"
+  }
+}
