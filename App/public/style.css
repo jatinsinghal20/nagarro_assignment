@@ -1,0 +1,99 @@
+div{
+    text-align: center;
+}
+
+
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1;
+    color: red;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+.close:focus, .close:hover {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+
+button.drop {
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: inherit;
+    -webkit-appearance: none;
+}
+
+.drop {
+    float: right;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-shadow: 0 1px 0 #fff;
+    color: inherit;
+    opacity: 1;
+}
+
+.active{
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    background-color: #d6b598;
+    border-color: #d1b19c;
+    color: #75645a;
+}
+
+input[type = text]{
+    border-radius: 25px;
+    outline: none;
+    padding: 15px 15px 15px 15px;
+}
+
+
+input[type= checkbox]{
+    vertical-align: middle;
+    height: 20px;
+}
+
+
+.heading {
+    height: 100px;
+    padding: 1.5rem 1.25rem;
+    font-size: 30px;
+}
+
+#complete div:nth-child(even) {
+    color: #5F5F5F;
+}
+
+#complete div:nth-child(odd){
+    color: #5CB660;
+}
+
+
+#active div:nth-child(even) {
+    color: #5F5F5F;
+}
+
+#active div:nth-child(odd) {
+    color: saddlebrown;
+}
+
+#deleted{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
+#deleted div:nth-child(even) {
+    color: #5F5F5F;
+}
+
+#deleted div:nth-child(odd){
+    color: #ffa84c;
+}
